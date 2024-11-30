@@ -1,4 +1,4 @@
-![Isaac Lab](docs/source/_static/isaaclab.jpg)
+![Isaac Lab](docs/source/_static/isaaclab-push.jpg)
 
 ---
 
@@ -13,6 +13,8 @@
 [![License](https://img.shields.io/badge/license-BSD--3-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Introduction
+
+This repository is part of a research project supervised by [Professor Glen Berseth](https://neo-x.github.io/). It involves using IsaacLab and the Proximal Policy Optimization (PPO) algorithm to solve multi-block push tasks. The project also implements a hierarchical control framework to enhance task performance and scalability.
 
 [**Isaac Lab**](https://github.com/isaac-sim/IsaacLab) was used as the simulation platform for our project to implement and evaluate hierarchical control and reinforcement learning algorithms for multi-block manipulation tasks.
 

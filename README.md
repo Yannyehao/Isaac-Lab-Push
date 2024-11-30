@@ -43,14 +43,10 @@ During experimentation, we found that using a single reward function to handle m
 
 In this section, we present demonstrations of the trained models in action:
 
-#### Push1-1
-<iframe src="https://drive.google.com/file/d/1moajrE3K5YBhADNsS6NsvglQM0956MUr/preview" width="640" height="480" allow="autoplay"></iframe>
+- [Push1-1 Demo Video](https://drive.google.com/file/d/1moajrE3K5YBhADNsS6NsvglQM0956MUr/view?usp=drive_link)
+- [Push2-2 Demo Video](https://drive.google.com/file/d/1Qe17VZAEfXbi7h0lbjlE2ZKxm4TLRY3Y/view?usp=drive_link)
+- [Push3-3 Demo Video](https://drive.google.com/file/d/1To_WHdxHNC5GRiN6GSEWNWjuZHS-lyX9/view?usp=drive_link)
 
-#### Push2-2
-<iframe src="https://drive.google.com/file/d/1Qe17VZAEfXbi7h0lbjlE2ZKxm4TLRY3Y/preview" width="640" height="480" allow="autoplay"></iframe>
-
-#### Push3-3
-<iframe src="https://drive.google.com/file/d/1To_WHdxHNC5GRiN6GSEWNWjuZHS-lyX9/preview" width="640" height="480" allow="autoplay"></iframe>
 
 
 ## Reflections and Insights

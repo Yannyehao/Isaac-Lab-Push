@@ -54,7 +54,7 @@ agent:
   rewards_shaper_scale: 0.01
   # logging and checkpoint
   experiment:
-    directory: "franka_push_cube2"
+    directory: "franka_push_cube2_1"
     experiment_name: ""
     write_interval: 120
     checkpoint_interval: 1200

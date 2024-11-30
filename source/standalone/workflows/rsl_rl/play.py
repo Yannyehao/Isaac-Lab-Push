@@ -75,6 +75,11 @@ def main():
     ppo_runner = OnPolicyRunner(env, agent_cfg.to_dict(), log_dir=None, device=agent_cfg.device)
     ppo_runner.load(resume_path)
     print(f"[INFO]: Loading model checkpoint from: {resume_path}")
+    
+    print("Checkpoint loaded successfully.")
+
+    print(ppo_runner.alg.actor_critic)
+
 
     # obtain the trained policy for inference
     policy = ppo_runner.get_inference_policy(device=env.unwrapped.device)

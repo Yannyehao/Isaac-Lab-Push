@@ -15,9 +15,9 @@ from omni.isaac.lab_tasks.utils.wrappers.rsl_rl import (
 @configclass
 class Push2CubePPORunnerCfg(RslRlOnPolicyRunnerCfg):
     num_steps_per_env = 24
-    max_iterations = 2000
+    max_iterations = 3000
     save_interval = 50
-    experiment_name = "franka_push_cube2"
+    experiment_name = "franka_push_cube2_2"
     empirical_normalization = False
     policy = RslRlPpoActorCriticCfg(
         init_noise_std=1.0,

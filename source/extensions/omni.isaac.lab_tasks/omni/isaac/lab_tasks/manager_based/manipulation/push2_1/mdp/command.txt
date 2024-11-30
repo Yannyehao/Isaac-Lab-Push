@@ -1,0 +1,3 @@
+./isaaclab.sh -p source/standalone/workflows/skrl/train.py --task Isaac-Push-Franka-v0 --headless
+
+./isaaclab.sh -p source/standalone/workflows/skrl/play.py --task Isaac-Push-Franka-v0 --num_envs 3 --checkpoint /home/bbboy/Documents/02Work/IsaacLab/logs/skrl/franka_lift/****-**-**_**-**-**/checkpoints/best_agent.pt

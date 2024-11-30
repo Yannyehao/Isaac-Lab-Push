@@ -13,13 +13,13 @@
 [![License](https://img.shields.io/badge/license-BSD--3-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 
-**Isaac Lab** is a unified and modular framework for robot learning that aims to simplify common workflows
+[**Isaac Lab**](https://github.com/isaac-sim/IsaacLab) is a unified and modular framework for robot learning that aims to simplify common workflows
 in robotics research (such as RL, learning from demonstrations, and motion planning). It is built upon
 [NVIDIA Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html) to leverage the latest
 simulation capabilities for photo-realistic scenes and fast and accurate simulation.
 
-Please refer to our [documentation page](https://isaac-sim.github.io/IsaacLab) to learn more about the
-installation steps, features, tutorials, and how to set up your project with Isaac Lab.
+Please refer to [documentation page](https://isaac-sim.github.io/IsaacLab) to learn more about the
+installation steps, features, tutorials, and how to set up customized project with Isaac Lab.
 
 ## Contributing to Isaac Lab
 

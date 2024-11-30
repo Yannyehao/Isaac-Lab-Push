@@ -51,6 +51,19 @@ In this section, we present demonstrations of the trained models in action:
 
 ## Reflections and Insights
 
+First and foremost, I would like to express my heartfelt gratitude to Glen, Albert, Kirsty, and Alexis for their unwavering support and guidance throughout this journey. None of this would have been possible without their encouragement and the opportunities they provided.
+
+Training a robotic arm using deep reinforcement learning in a simulation platform is a challenging task. Even though Isaac Lab has streamlined and integrated many aspects of this process, the learning curve for new users remains steep. The first few months of this project were entirely dedicated to learning how to use Isaac Lab—configuring the environment, reading the official documentation, and diving into the source code. These experiences were invaluable in sharpening my technical skills and problem-solving abilities.
+
+Once I had a good grasp of Isaac Lab's primary functions and framework, I faced new challenges: modifying the base environment to fit my requirements, adjusting environment settings, managing model training and storage, understanding the rationale behind reward functions, organizing and managing experiments, communicating results effectively with professors and collaborators, and troubleshooting mysterious bugs. These are skills that cannot be fully learned through lectures or advice—they can only be developed through hands-on experience and persistence.
+
+One piece of advice from Glen that resonated deeply with me is:
+"Research life is nonlinear, but as a student, your learning should be linear."
+This perfectly captures the essence of this journey. There are always problems to solve and things I do not know, and I cannot expect to know or master everything at once. The best I can do is to continuously learn from others, move forward through challenges, and adapt to new situations.
+
+But how do we progress through problems? My robotic arm "friend" has taught me an important lesson: trying to do too many things at once often leads to accomplishing none. Setting clear priorities, focusing on one task at a time, and progressing step by step is the only way to truly make progress. Paradoxically, moving slowly and deliberately often allows us to move faster in the long run.
+Finally, I want to thank Glen once again for giving me this incredible opportunity. This project has been a transformative experience, and I am deeply grateful for his trust and mentorship.
+
 ## License
 
 The Isaac Lab framework is released under [BSD-3 License](LICENSE). The license files of its dependencies and assets are present in the [`docs/licenses`](docs/licenses) directory.

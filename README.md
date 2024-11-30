@@ -37,15 +37,15 @@ In the directory [`manager_based/manipulation`](https://github.com/Yannyehao/Isa
 
 During experimentation, we found that using a single reward function to handle multi-target tasks often fails to achieve satisfactory results, even if theoretically possible. Hierarchical control proved to be an effective solution for these complex tasks.
 
+
+
 ### Results and Demonstrations
 
 In this section, we present demonstrations of the trained models in action:
 
-[![Push1-1 Demo Video](https://via.placeholder.com/640x360.png?text=Push1-1+Demo+Video)](https://drive.google.com/file/d/1moajrE3K5YBhADNsS6NsvglQM0956MUr/view?usp=drive_link)
-
-[![Push2-2 Demo Video](https://via.placeholder.com/640x360.png?text=Push2-2+Demo+Video)](https://drive.google.com/file/d/1Qe17VZAEfXbi7h0lbjlE2ZKxm4TLRY3Y/view?usp=drive_link)
-
-[![Push3-3 Demo Video](https://via.placeholder.com/640x360.png?text=Push3-3+Demo+Video)](https://drive.google.com/file/d/1To_WHdxHNC5GRiN6GSEWNWjuZHS-lyX9/view?usp=drive_link)
+- [Push1-1 Demo Video](https://drive.google.com/file/d/1moajrE3K5YBhADNsS6NsvglQM0956MUr/view?usp=drive_link)
+- [Push2-2 Demo Video](https://drive.google.com/file/d/1Qe17VZAEfXbi7h0lbjlE2ZKxm4TLRY3Y/view?usp=drive_link)
+- [Push3-3 Demo Video](https://drive.google.com/file/d/1To_WHdxHNC5GRiN6GSEWNWjuZHS-lyX9/view?usp=drive_link)
 
 
 

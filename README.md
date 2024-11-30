@@ -1,4 +1,4 @@
-![Isaac Lab](docs/source/_static/isaaclab-push.jpg)
+![Isaac Lab](docs/source/_static/isaaclab-push.png)
 
 ---
 

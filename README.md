@@ -2,7 +2,7 @@
 
 ---
 
-# Isaac Lab
+# Isaac Lab Push
 
 [![IsaacSim](https://img.shields.io/badge/IsaacSim-4.0-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)
@@ -12,8 +12,11 @@
 [![Docs status](https://img.shields.io/badge/docs-passing-brightgreen.svg)](https://isaac-sim.github.io/IsaacLab)
 [![License](https://img.shields.io/badge/license-BSD--3-yellow.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
+## Introduction
 
-[**Isaac Lab**](https://github.com/isaac-sim/IsaacLab) is a unified and modular framework for robot learning that aims to simplify common workflows
+[**Isaac Lab**](https://github.com/isaac-sim/IsaacLab) was used as the simulation platform for our project to implement and evaluate hierarchical control and reinforcement learning algorithms for multi-block manipulation tasks.
+
+Isaac Lab is a unified and modular framework for robot learning that aims to simplify common workflows
 in robotics research (such as RL, learning from demonstrations, and motion planning). It is built upon
 [NVIDIA Isaac Sim](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html) to leverage the latest
 simulation capabilities for photo-realistic scenes and fast and accurate simulation.
@@ -21,24 +24,17 @@ simulation capabilities for photo-realistic scenes and fast and accurate simulat
 Please refer to [documentation page](https://isaac-sim.github.io/IsaacLab) to learn more about the
 installation steps, features, tutorials, and how to set up customized project with Isaac Lab.
 
-## Contributing to Isaac Lab
+## Task Extensions and Hierarchical Control
 
-We wholeheartedly welcome contributions from the community to make this framework mature and useful for everyone.
-These may happen as bug reports, feature requests, or code contributions. For details, please check our
-[contribution guidelines](https://isaac-sim.github.io/IsaacLab/source/refs/contributing.html).
+In the directory [`manager_based/manipulation`](https://github.com/Yannyehao/Isaac-Lab-Push/tree/main/source/extensions/omni.isaac.lab_tasks/omni/isaac/lab_tasks/manager_based/manipulation), we added and tested several new tasks: `push`, `push2_1`, `push2_2`, and `push3_3`.
 
-## Troubleshooting
+- The [`push`](https://github.com/Yannyehao/Isaac-Lab-Push/tree/main/source/extensions/omni.isaac.lab_tasks/omni/isaac/lab_tasks/manager_based/manipulation/push) task is a new task type not available in the original repository. It was implemented by designing a custom reward function.  
+- The [`push2_1`](https://github.com/Yannyehao/Isaac-Lab-Push/tree/main/source/extensions/omni.isaac.lab_tasks/omni/isaac/lab_tasks/manager_based/manipulation/push2_1) task involves pushing two blocks to one target.  
+- The [`push2_2`](https://github.com/Yannyehao/Isaac-Lab-Push/tree/main/source/extensions/omni.isaac.lab_tasks/omni/isaac/lab_tasks/manager_based/manipulation/push2_2) task involves pushing two blocks to two targets.  
+- The [`push3_3`](https://github.com/Yannyehao/Isaac-Lab-Push/tree/main/source/extensions/omni.isaac.lab_tasks/omni/isaac/lab_tasks/manager_based/manipulation/push3_3) task involves pushing three blocks to three targets.  
 
-Please see the [troubleshooting](https://isaac-sim.github.io/IsaacLab/source/refs/troubleshooting.html) section for
-common fixes or [submit an issue](https://github.com/isaac-sim/IsaacLab/issues).
+During experimentation, we found that using a single reward function to handle multi-target tasks often fails to achieve satisfactory results, even if theoretically possible. Hierarchical control proved to be an effective solution for these complex tasks.
 
-For issues related to Isaac Sim, we recommend checking its [documentation](https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/overview.html)
-or opening a question on its [forums](https://forums.developer.nvidia.com/c/agx-autonomous-machines/isaac/67).
-
-## Support
-
-* Please use GitHub [Discussions](https://github.com/isaac-sim/IsaacLab/discussions) for discussing ideas, asking questions, and requests for new features.
-* Github [Issues](https://github.com/isaac-sim/IsaacLab/issues) should only be used to track executable pieces of work with a definite scope and a clear deliverable. These can be fixing bugs, documentation issues, new features, or general updates.
 
 ## License
 
@@ -46,7 +42,7 @@ The Isaac Lab framework is released under [BSD-3 License](LICENSE). The license 
 
 ## Acknowledgement
 
-Isaac Lab development initiated from the [Orbit](https://isaac-orbit.github.io/) framework. We would appreciate if you would cite it in academic publications as well:
+Isaac Lab development initiated from the [Orbit](https://isaac-orbit.github.io/) framework. 
 
 ```
 @article{mittal2023orbit,
